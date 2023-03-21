@@ -9,7 +9,6 @@ function About(props) {
             <RenderLeader key={leader.id} leader={leader} />
         );
     });
-
     return(
         <div className="container">
             <div className="row">
